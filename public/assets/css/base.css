@@ -172,6 +172,25 @@ a {
     outline: 0;
 }
 
+#myVideo {
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+	right: 0px;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+
+}
+
+h2.alt #headline {
+	position:fixed;
+	z-index: 1; 
+}
+#banner {
+	position: relative;
+}
+
     a:hover {
         color: white;
         border-bottom-color: rgba(255, 255, 255, 0);
@@ -443,13 +462,13 @@ ul.icons {
 
         #main > section.cover {
             padding: 10em 0;
-            background-size: cover;
+            background-size: cover; 
             background-position: center center;
         }
 
         #main > section.one {
-            background-color: #81918E;
-            background-image: url("../../images/banner.jpg");
+
+            background-image: url("../../images/Sparks.mp4");
         }
 
         #main > section.two {

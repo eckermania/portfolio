@@ -1,3 +1,6 @@
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+
 /* Container */
 
 .container {
@@ -200,6 +203,10 @@ ol {
             margin: 0 0 0.5em 0;
         }
 
+        #myVideo {
+            width: 100%;
+        }
+
         #nav ul li a {
             font-size: 0.8em;
             padding-top: 0.5em;
@@ -232,11 +239,11 @@ ol {
 
 /* Narrower */
 
-#headerToggle {
+/* #headerToggle {
     display: none;
-}
+} */
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 767px) {
 
     /* Basic */
 
@@ -248,14 +255,9 @@ ol {
             font-size: 16pt;
         }
 
-        header br {
-            display: none;
-        }
-
         .container {
             padding: 0 2em 0 2em;
         }
-
     /* Item */
 
         .item {
@@ -344,6 +346,7 @@ ol {
                 height: 100%;
                 outline: 0;
                 border: 0;
+                z-index: 100;
             }
 
                 #headerToggle .toggle:before {

@@ -1,3 +1,6 @@
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+
 /* Row */
 
 .row {
@@ -1475,7 +1478,8 @@
 		section > :last-child,
 		section > .container, section:last-child, article > :last-child,
 		article > .container, article:last-child {
-			margin-bottom: 0;
+            position: relative;
+            margin-bottom: 0;
 		}
 
 		.row > section, .row > article {
