@@ -14,6 +14,8 @@
 		<link rel="stylesheet" href="assets/css/layout.css" />
 		<link rel="stylesheet" href="assets/css/modules.css" />
 		<link href="https://fonts.googleapis.com/css?family=Comfortaa|Muli|Varela+Round" rel="stylesheet">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body class="is-preload">
 
@@ -59,11 +61,14 @@
 
 				<!-- Intro -->
 					<section id="top" class="one dark cover">
-						<div class="container">
-
+							<video autoplay muted loop id="myVideo">
+									<source src="images/Sparks.mp4" type="video/mp4">
+								</video>
+						<div class="container" id="banner">
 							<header>
+									
 								<h2 class="alt">Hi! I'm <strong>Erin Eckerman</strong>, an agent of change.</h2>
-								<p>A software developer with 10 years of program management experience<br />
+								<p id="headline">A software developer with 10 years of program management experience<br />
 								who is passionate about using technology to solve social challenges.</p>
 							</header>
 
@@ -156,13 +161,18 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.scrollex/0.2.1/jquery.scrollex.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/jquery.scrolly@0.0.1/jquery.scrolly.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/FontAwesome.otf"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.svg"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2"></script>
+		<script src="https://cdn.jsdelivr.net/npm/breakpoints-js@1.0.6/dist/breakpoints.min.js"></script>	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/1.0/browser.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
